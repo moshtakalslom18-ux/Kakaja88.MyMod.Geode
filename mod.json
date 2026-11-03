@@ -1,0 +1,11 @@
+{
+    "geode": "3.5.0",
+    "gd": {
+        "android": "*"
+    },
+    "id": "kakaja88.mymod",
+    "name": "Hello Geode",
+    "developer": "moshtakalslom18-ux",
+    "version": "v1.0.0",
+    "description": "My first mod built for Xiaomi Pad 6!"
+}
