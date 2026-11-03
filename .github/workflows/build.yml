@@ -1,0 +1,19 @@
+name: Build Geode Mod
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Build Android Binaries
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Build Mod Package
+        uses: geode-sdk/cli/actions/build@main
+        with:
+          target: Android
+          
